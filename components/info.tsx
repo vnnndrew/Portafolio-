@@ -1,6 +1,6 @@
 import { Heading, HStack, Icon, Link, Text, VStack, Button, Image } from "@chakra-ui/react";
-import { PhoneIcon, AddIcon, WarningIcon, ExternalLinkIcon, EmailIcon } from '@chakra-ui/icons'
-import { text } from "stream/consumers";
+//import { PhoneIcon, AddIcon, WarningIcon, ExternalLinkIcon, EmailIcon } from '@chakra-ui/icons'
+//import { text } from "stream/consumers";
 
 
 export default function Info() {
