@@ -4,9 +4,11 @@ import Project from "@/components/project";
 import { grid, Grid, Image } from "@chakra-ui/react";
 export default function Home() {
   return (
+
     <><header>
       <title>Inicio Portafolio</title>
     </header>
+
       <Grid placeItems="center" p={3} templateAreas={[
         '"i" "t" "p1" "p2" "p3" "p4" "p5" "p6" "p7" "p8" "p9" "p10"',
         '"i t" "p1 p2" "p3 p4" "p5 p6" "p7 p8" "p9 p10"',
@@ -33,5 +35,6 @@ export default function Home() {
         <Project icon={null} link={null} text="Proyecto 9" gridArea="p9" />
         <Project icon={null} link={null} text="Proyecto 10" gridArea="p10" />
       </Grid></>
+
   )
 }
