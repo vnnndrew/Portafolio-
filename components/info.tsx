@@ -26,7 +26,8 @@ export default function Info() {
                         alt='Linkedin'
                     ></Image>
                 </Link>
-
+                
+              
             </HStack>
         </VStack>
     )

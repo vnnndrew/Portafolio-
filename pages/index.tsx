@@ -1,7 +1,7 @@
 
 import Info from "@/components/info";
 import Project from "@/components/project";
-import { grid, Grid, Image } from "@chakra-ui/react";
+import { Grid, Image } from "@chakra-ui/react";
 export default function Home() {
   return (
 
